@@ -1,0 +1,502 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/home.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.home {
+  min-height: 100vh;
+}
+.home__container {
+  justify-content: center;
+  position: relative;
+}
+.home__newsfeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/avatarHome.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.avatarHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatarHome img {
+  background-color: var(--black-color);
+  border-radius: 5rem;
+  border: 0.1rem solid var(--greyBorder-color);
+}
+.avatarHome span {
+  margin-left: 5px;
+  color: var(--blueBorder-color);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/createPost.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.create-post {
+  border: 0.1rem solid var(--greyBorder-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  min-height: 20rem;
+  background-color: var(--white-color);
+  width: 100%;
+}
+.create-post__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.create-post__input .avatarHome {
+  align-self: flex-start;
+}
+.create-post__input input {
+  margin-left: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.create-post__input textarea {
+  margin-left: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  resize: none;
+  overflow: auto;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid var(--greyBorder-color);
+  min-height: 10rem;
+  max-height: 20rem;
+  overflow: auto;
+}
+.create-post__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-post__elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-post__elements .element {
+  transition: 0.3s;
+  margin-right: 2rem;
+  cursor: default;
+}
+.create-post__elements .element:nth-child(1) {
+  cursor: pointer;
+}
+.create-post__elements .element:nth-child(1):hover {
+  transform: scale(1.1);
+}
+.create-post__elements .element svg {
+  color: var(--blueBorder-color);
+}
+.create-post__elements .element span {
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+.create-post__submit {
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: var(--blueBorder-color);
+  padding: 1rem 2.5rem;
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+.create-post__submit:hover {
+  transform: scale(1.1);
+}
+.create-post__fileUpload {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.create-post__fileUpload span {
+  font-weight: 300;
+  color: var(--blueBorder-color);
+  font-size: 1rem;
+  margin: 0 1rem 0 0.5rem;
+}
+.create-post__fileUpload span:first-child {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.create-post__fileUpload .remove-file {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 0;
+  color: var(--blueBorder-color);
+}
+.create-post__fileUpload .remove-file:hover {
+  color: var(--red-color);
+  cursor: pointer;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/post.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.post {
+  width: 100%;
+  margin: 1rem 0;
+  background-color: var(--white-color);
+  border-radius: 1rem;
+}
+.post__container {
+  padding: 2rem 1rem;
+  border: 0.1rem solid var(--greyBorder-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__user {
+  display: flex;
+}
+.post__user .info-user {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post__user .info-user span:first-child {
+  font-weight: 600;
+}
+.post__user .info-user span:last-child {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.post__setting {
+  align-self: flex-start;
+  cursor: pointer;
+}
+.post__body {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid var(--greyBorder-color);
+  align-items: center;
+}
+.post__body span {
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+.post__body img {
+  border-top: 2px solid var(--greyBorder-color);
+  padding: 0 3rem;
+  width: 100%;
+  max-height: 60rem;
+  object-fit: cover;
+  background-color: var(--black-color);
+}
+.post__footer {
+  margin-top: 1rem;
+}
+.post__footer .post__actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.post__footer .post__actions .action {
+  cursor: pointer;
+  margin-right: 2rem;
+  color: var(--blueBorder-color);
+}
+.post__footer .post__actions .action svg {
+  margin-right: 0.5rem;
+}
+.post__footer .post__likeIcon.active svg {
+  color: var(--red-color);
+}
+.post__control .post-control__header {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--greyBorder-color);
+  border-top: 2px solid var(--greyBorder-color);
+}
+.post__control .post-control__header .item {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--blueBorder-color);
+  flex: 1 1;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+.post__control .post-control__header .item svg {
+  margin-right: 0.5rem;
+}
+.post__control .post-control__header .item:hover {
+  background: var(--blueLow-color);
+}
+.post__control .post-control__header .item:first-child.active {
+  color: var(--red-color);
+}
+.post__control .post-control__header .item:nth-child(2) {
+  margin: 0 0.5rem;
+}
+.post__control .post-control__body {
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s;
+}
+.post__control .post-control__body.active {
+  max-height: 30rem;
+}
+.post__control .post-control__body .post__comment {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.post__control .post-control__body .post__comment .input-comment {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  flex: 1 1;
+  position: relative;
+  height: 5rem;
+}
+.post__control .post-control__body .post__comment .avatarHome {
+  align-self: flex-start;
+}
+.post__control .post-control__body .post__comment textarea {
+  margin: 0 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  resize: none;
+  overflow: auto;
+  display: block;
+  border: 1px solid var(--greyBorder-color);
+  padding: 1rem 1rem;
+  overflow: auto;
+  border-radius: 0.5rem;
+}
+.post__control .post-control__body .post__comment svg {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--blueBorder-color);
+  flex: 1 1;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.post__control .post-control__body .post__comment svg:hover {
+  background-color: var(--greyBorder-color);
+}
+.post__control .post-control__body .post__listComment {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+  overflow-y: auto;
+  max-height: 20rem;
+}
+.post__control .post-control__body .post__listComment .item-comment {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.post__control .post-control__body .post__listComment .item-comment .avatarHome {
+  align-self: flex-start;
+}
+.post__control .post-control__body .post__listComment .item-comment__content {
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: var(--greyBorder-color);
+  border-radius: 2rem;
+}
+.post__control .post-control__body .post__listComment .item-comment__content .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.post__control .post-control__body .post__listComment .item-comment__content .info span:first-child {
+  font-weight: 500;
+}
+.post__control .post-control__body .post__listComment .item-comment__content .info span:last-child {
+  line-height: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.post__control .post-control__body .post__listComment .item-comment__content .content p {
+  margin: 0;
+}
+
+/* Nút cuộn */
+.post__listComment::-webkit-scrollbar-thumb {
+  background-color: var(--greyBorder-color);
+  border-radius: 1rem;
+  height: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/posts.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.posts {
+  width: 100%;
+}
+.posts__container {
+  display: flex;
+  flex-direction: column;
+}
+.posts__container h3 {
+  background-color: var(--white-color);
+  margin: 0;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: center;
+  min-height: 20rem;
+  border: 0.1rem solid var(--greyBorder-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts__load {
+  width: 100%;
+  background-color: var(--blueBorder-color);
+  cursor: pointer;
+  color: var(--white-color);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  max-height: 5rem;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/navbar.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+  min-width: 20%;
+  border-radius: 1rem;
+  overflow-y: auto;
+  height: 100vh;
+}
+.navbar h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--blueBorder-color);
+}
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.navbar li {
+  flex: 1 1;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+.navbar li .avatarHome {
+  justify-content: start;
+}
+.navbar li svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--blueBorder-color);
+}
+.navbar li a {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.126s;
+}
+.navbar li a:hover {
+  background-color: var(--greyBorder-color);
+}
+.navbar li a span {
+  margin-left: 0.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[13].use[5]!./src/sass/listFriend.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.list-friend {
+  min-width: 20%;
+  border-radius: 1rem;
+  overflow-y: auto;
+  height: 100vh;
+}
+.list-friend h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: var(--blueBorder-color);
+}
+.list-friend h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--blueBorder-color);
+}
+.list-friend ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.list-friend li {
+  flex: 1 1;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+.list-friend li .avatarHome {
+  justify-content: start;
+}
+.list-friend li svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--blueBorder-color);
+}
+.list-friend li a {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.126s;
+}
+.list-friend li a:hover {
+  background-color: var(--greyBorder-color);
+}
+.list-friend li a span {
+  margin-left: 0.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
