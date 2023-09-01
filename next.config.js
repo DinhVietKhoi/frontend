@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  distDir: 'dist',
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' },
+      '/about': { page: '/about' },
+      // Các trang khác của ứng dụng của bạn
+    };
+  },
+  exportTrailingSlash: true,
   env: {
     BASE_URL: process.env.BASE_URL,
   },
